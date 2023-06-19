@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_Assignment</title>
+
+    <style>
+        .body{
+            height: 100vh;
+        }
+
+        .upper_body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color:yellow;
+            height: 70vh;
+        }
+
+        h1{
+            font-size: 60px;
+            
+        }
+
+        .dot{
+            height: 100px;
+            width: 100px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: block;
+           
+        }
+
+        .smile{
+           position: relative;
+           top: 25px;
+           left: 30px;
+           font-size: 40px;
+        }
+
+        .lower_body{
+            height: 30vh;
+            display: flex;
+            justify-content: center;
+            background-color: red;
+            
+        }
+
+        .yellow_triangle {
+            width: 0;
+            height: 0;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            border-top: 40px solid yellow;
+}
+    </style>
+
+</head>
+<body>
+
+    <div class="upper_body">
+        <h1>Pinak Idea Lab</h1>
+        <br>
+        <span class="dot"><span class="smile">:)</span></span>    
+    </div>
+
+    <div class="lower_body">
+        <div class="yellow_triangle"></div>
+    </div>
+
+    
+</body>
+</html>
